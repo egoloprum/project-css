@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Gochi+Hand");
+body {
+  background-color: #a39bd2;
+  min-height: 70vh;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #494a4b;
+  font-family: "Gochi Hand", cursive;
+  text-align: center;
+  font-size: 130%;
+}
+
+@media only screen and (min-width: 500px) {
+  body {
+    min-height: 100vh;
+  }
+}
+.container {
+  width: 100%;
+  height: auto;
+  min-height: 500px;
+  max-width: 500px;
+  min-width: 250px;
+  background: #f1f5f8;
+  background-image: radial-gradient(#bfc0c1 7.2%, transparent 0);
+  background-size: 25px 25px;
+  border-radius: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.heading__div {
+  max-width: 260px;
+}
+
+.heading__title {
+  transform: rotate(2deg);
+  padding: 0.2rem 1.2rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: rgba(0, 255, 196, 0.7);
+  font-size: 1.5rem;
+}
+
+.heading__img {
+  width: 100%;
+  transform: rotate(-2deg);
+}
+
+.heading__p {
+  background-color: rgba(119, 255, 0, 0.7);
+  transform: rotate(2deg);
+}
+
+.heading__h4 {
+  background-color: rgba(255, 102, 0, 0.7); 
+  transform: rotate(2deg);
+}
+
+.heading__img2 {
+  width: 200px;
+}
+
+body li:hover {
+  text-decoration: line-through wavy #24bffb;
+}
+
+@media only screen and (max-width: 420px) {
+  .heading__div {
+    max-width: 125px;
+  }
+  .heading__title {
+    font-size: 1.4rem;
+  }
+
+  .heading__img2 {
+    width: 125px;
+  }
+}
